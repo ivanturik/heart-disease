@@ -1,0 +1,21 @@
+# IDE / venv
+.venv/
+venv/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Env
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/
+
