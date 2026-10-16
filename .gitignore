@@ -1,21 +1,12 @@
-# IDE / venv
 .venv/
-venv/
-.idea/
-
-# Python
 __pycache__/
-*.py[cod]
-
-# Env
-.env
-
-# Jupyter
 .ipynb_checkpoints/
-
-# OS
-.DS_Store
-
-# Streamlit
-.streamlit/
-
+*.pyc
+mlruns/
+mlartifacts/
+mlflow.db*
+models/*
+!models/.gitkeep
+.env
+!models/model.joblib
+!models/meta.json
